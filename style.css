@@ -1,0 +1,34 @@
+@media(min-width:468px) {
+    .container-1 {
+        display: flex;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container-1 div {
+        border: 1px #ccc solid;
+        padding: 10px;
+        transition: flex-grow 1000ms linear;
+    }
+    .box-1 {
+        flex: 1;
+        order: 1;
+        background-color: aliceblue;
+        border-radius: 6px;
+        border-spacing: 15px 15px;
+    }
+    .box-2 {
+        flex: 2;
+        order: 2;
+        background-color: aliceblue;
+        border-radius: 6px;
+    }
+}
+
+.img:hover {
+    opacity: 50%;
+    transition: ease-in 1s;
+}
+
+.text:hover {
+    transform: scale(1) rotate(1deg);
+}
